@@ -1,0 +1,24 @@
+# 提取产物与临时文件
+*.txt
+pages/
+_extract/
+_sources/
+_probe/
+
+# 例外：examples/ 里刻意保留一份转录留档，用来演示 _sources/ 约定
+!examples/*/_sources/
+!examples/*/_sources/*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
